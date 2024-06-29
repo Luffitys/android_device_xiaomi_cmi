@@ -11,18 +11,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from umi device
-$(call inherit-product, device/xiaomi/umi/device.mk)
+# Inherit from cmi device
+$(call inherit-product, device/xiaomi/cmi/device.mk)
 
-PRODUCT_NAME := lineage_umi
-PRODUCT_DEVICE := umi
+PRODUCT_NAME := lineage_cmi
+PRODUCT_DEVICE := cmi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi 10
+PRODUCT_MODEL := Mi 10 Pro
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="umi-user 13 RKQ1.211001.001 V14.0.5.0.TJBMIXM release-keys"
+    PRIVATE_BUILD_DESC="cmi-user 13 RKQ1.211001.001 V14.0.5.0.TJBMIXM release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/umi_global/umi:13/RKQ1.211001.001/V14.0.5.0.TJBMIXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/cmi_global/cmi:13/RKQ1.211001.001/V14.0.5.0.TJBMIXM:user/release-keys
