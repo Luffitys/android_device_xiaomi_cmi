@@ -9,20 +9,20 @@
 
 #include "vendor_init.h"
 
-static const variant_info_t umi_info = {
+static const variant_info_t cmi_info = {
     .hwc_value = "",
     .sku_value = "",
 
     .brand = "Xiaomi",
-    .device = "umi",
+    .device = "cmi",
     .marketname = "",
-    .model = "Mi 10",
-    .build_fingerprint = "Xiaomi/umi_global/umi:13/RKQ1.211001.001/V14.0.5.0.TJBMIXM:user/release-keys",
+    .model = "Mi 10 Pro",
+    .build_fingerprint = "Xiaomi/cmi_global/cmi:13/RKQ1.211001.001/V14.0.5.0.TJBMIXM:user/release-keys",
 
     .nfc = true,
 };
 
 void vendor_load_properties() {
-    set_variant_props(umi_info);
+    set_variant_props(cmi_info);
     set_dalvik_heap();
 }
