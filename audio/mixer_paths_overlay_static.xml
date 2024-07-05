@@ -789,10 +789,10 @@
     </path>
 
     <path name="handset-stereo-dmic-ef">
-        <path name="handset-dmic-dual-adc" />
+        <path name="handset-mic" />
     </path>
 
     <path name="camcorder-dmic">
-        <path name="handset-dmic-dual-adc" />
+        <path name="handset-mic" />
     </path>
 </mixer>
