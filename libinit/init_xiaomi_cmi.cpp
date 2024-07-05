@@ -17,7 +17,7 @@ static const variant_info_t cmi_info = {
     .device = "cmi",
     .marketname = "",
     .model = "Mi 10 Pro",
-    .build_fingerprint = "Xiaomi/cmi_global/cmi:13/RKQ1.211001.001/V14.0.5.0.TJBMIXM:user/release-keys",
+    .build_fingerprint = "Xiaomi/cmi_global/cmi:13/RKQ1.211001.001/V816.0.2.0.TJAMIXM:user/release-keys",
 
     .nfc = true,
 };
