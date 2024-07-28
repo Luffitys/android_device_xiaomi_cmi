@@ -43,9 +43,7 @@ vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 vendor/lib/rfsa/adsp/misound_karaoke_res.bin
 vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
-
-# ADSP Modules - from Redmi K40S (munch) V816.0.2.0.ULMMIXM
-vendor/lib/rfsa/adsp/misound_res.bin|3e6b5636d5d9e0d4a7c98e821aa7fbfcf8f40c83
+vendor/lib/rfsa/adsp/misound_res.bin
 
 # Audio firmware
 vendor/firmware/cs35l41-dsp1-diag-revb2.wmfw
